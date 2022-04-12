@@ -6,7 +6,7 @@ mysql -h 127.0.0.1 -uroot -p<br>
 execute commands to setup database task2<br>
 ###create database task2<br>
 CREATE DATABASE task2 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;<br>
-###create user with rights on it
+###create user with rights on it<br>
 CREATE USER 'task2user'@'%' IDENTIFIED BY 'task2passwd';<br>
 GRANT ALL PRIVILEGES ON task2.* TO 'task2user'@'%' WITH GRANT OPTION;<br>
 FLUSH PRIVILEGES;<br>
